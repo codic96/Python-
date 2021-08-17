@@ -19,3 +19,32 @@ math.pi(3.14)
 import random
 random.random()
 
+
+'''Strings'''
+
+S = 'Commit'
+S[0]
+print(S[1])
+print(S[0:1])
+print(S[-1])
+print(S[:])
+
+'''Method'''
+
+'''https://docs.python.org/2.5/lib/string-methods.html'''
+
+S.find('pa')
+S.replace('pa','XYZ')
+print(S)
+
+Getting Help 
+
+print(dir(S))
+
+#Pattern Matching Module 
+# import re
+
+
+
+
+
