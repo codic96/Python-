@@ -46,3 +46,59 @@ x.attr                       Attribute referance
 [...]                        List,list comprehension
 {...}                        Dictionary,set,ser and dictionary comprehensions
 '''
+
+# Mixed operator follow operator presedence
+#Parenthese group subexpressions
+#Mixed types are converted up
+
+
+# Numbers in Actions
+
+c = 100
+d = 200
+
+e = (a+b)*c
+print(e)
+
+print(c+b)
+print(a+d)
+print(d-c)
+print(a<b)
+print(a==b)
+print(a/b)
+print(a//b)
+print(a>>b)
+print(a<<b)
+print(a!=b)
+
+#Math function
+import math
+math.floor(2.5)
+math.floor(-30.6)
+
+#Decimal functions
+from decimal import Decimal
+Decimal('0.1')+ Decimal('0.1')+Decimal('0.1')-Decimal('0.3')
+
+#Fraction function
+
+from fractions import Fraction
+x = Fraction(1,3)
+y = Fraction(4,6)
+print(x,y)
+
+
+# Sets
+
+x = set('abcdef')
+y = set('bdxyz')
+print(x)
+print(y)
+
+'e' in x  # Membership
+x-y       # difference
+#x union y # union
+x & y      #Intersection
+x^y        #Symmetric difference
+x>y , x<y  #Superset,subset
+
